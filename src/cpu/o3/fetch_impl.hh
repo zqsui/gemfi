@@ -1367,8 +1367,8 @@ DefaultFetch<Impl>::fetch(bool &status_change)
 			//ALTERCODE
 			//inject fault on decoded instruction
 						//~ALTERCODE
-      if ( staticInst->getFaultInjected())
-          decoder[tid]->erase(staticInst);
+      //if ( staticInst->getFaultInjected())
+      //    decoder[tid]->erase(staticInst);
 
 			DynInstPtr instruction =
 				buildInst(tid, staticInst, curMacroop,
