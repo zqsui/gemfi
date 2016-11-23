@@ -65,4 +65,10 @@ In the file ./configs/common/SysPaths.py, chage line 53 to
 path = [ '/dist/m5/system', 'your_path_to_gemfi/dist' ]
 ```
 
+Mount your test bench into the image
+-----------------------
+```
+sudo mount -o,loop,offset=32256 ./dist/disk /linux-parsec-2-1-m5-with-test-inputs.img /mnt
+sudo cp your_test_program /mnt 
+```
 
