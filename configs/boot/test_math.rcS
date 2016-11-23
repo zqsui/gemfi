@@ -1,0 +1,9 @@
+/sbin/m5 dumpresetstats
+
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+echo "Running test now ..."
+./basicmath_small
+echo "Finish test :D"
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+
+/sbin/m5 exit
